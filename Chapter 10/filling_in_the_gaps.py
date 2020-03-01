@@ -42,7 +42,7 @@ def renumber(prefix, extension):
         print('\nThis shouldn\'t be possible. Screencap this and get Justin to fix whatever just happened') 
 
 
-# This one adds a gap to the
+# This function adds a gap to the file numbering sequence
 def make_gap(prefix, extension, cut_after, gap_size):
     num_suffix = 1
     cut_after = int(cut_after)
